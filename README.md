@@ -1,10 +1,10 @@
-<h1 align="center">Project CoffeeSpot </h1>
+<h1 align="center">Project RegisHub </h1>
 
 <h1 align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vscode,github,python" alt="Tubes Daskom"></a></h1>
 
 Project : Py-Ver.2
 
-CoffeeSpot is an application developed using the Python programming language, which is designed to be able to order coffee easily and quickly. Where users can pay for coffee using a debit card.
+RegisHub is a smart app specifically designed to help prospective students gauge and calculate their chances of being accepted into the official school of choice. With RegisHub, users can enter their profile information, including academic achievements, extracurricular experience, and recommendations, then the app will use intelligent algorithms to analyze and assess their acceptance potential.
 
 Developer :  
 - [Aliza Nurfitrian Meizahra ](https://github.com/Alizaaaja4) [ALL]
