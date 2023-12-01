@@ -1,5 +1,6 @@
 import os
 import csv
+import webbrowser
 
 def print_header():
     print("=================================== RegisHub ===================================")
@@ -140,18 +141,74 @@ def menu_utama():
 
 def view_profile():
     print_header()
-    
-    print("\n")
-    print("----------------------------------------------------------------------------------")
-    print("== Name     :                        | Email    :                               ==")
-    print("----------------------------------------------------------------------------------")
-    print("== School   :                                                                   ==")
-    print("----------------------------------------------------------------------------------")
-    print('== Username :                        | Password :                               ==')
-    print("----------------------------------------------------------------------------------")
-    
+    username_input = input("Enter your username: ")
+
+    with open("Database Students.csv", "r") as file:
+        csv_reader = csv.reader(file)
+        found = False
+
+        for row in csv_reader:
+            if row[4] == username_input:  
+                found = True
+                print("----------------------------------------------------------------------------------")
+                print(f"== Name     : {row[0]}{' ' * (29 - len(row[0]))}| Email    : {row[3]}{' ' * (30 - len(row[3]))}")
+                print("----------------------------------------------------------------------------------")
+                print(f"== School   : {row[2]}{' ' * (73 - len(row[2]))}")
+                print("----------------------------------------------------------------------------------")
+                print(f"== Username : {row[4]}{' ' * (29 - len(row[4]))}| Password : {row[5]}{' ' * (30 - len(row[5]))}")
+                print("----------------------------------------------------------------------------------")
+                
+                os.system('pause')
+                os.system('cls')
+                dasboard_program()
+                break
+
+        if not found:
+            print("Account not found.")
+            
+    os.system('pause')
+    os.system('cls')
+    dasboard_program()
+
 def search_academy():
-    print("on progress")
+    print_header()
+    
+    print("----------------------------------------------------------------------------------")
+    print("==  [1]. Institute of Internal Governmen   [2]. State Financial Polytechnic     ==")
+    print("==  [3]. Police Academy                    [4]. Air Force Academy               ==")
+    print("==  [5]. Naval Academy                     [6]. Army Academy                    ==")
+    print("----------------------------------------------------------------------------------")
+    pilihan = input("Input Option : ")
+    print('\n')
+    
+    if pilihan == '1':
+        os.system('cls')
+        webbrowser.open('https://jakarta.ipdn.ac.id/')
+        
+    elif pilihan == '2':
+        os.system('cls')
+        webbrowser.open('https://pknstan.ac.id/')
+        
+    elif pilihan == '3':
+        os.system('cls')
+        webbrowser.open('https://akpol.ac.id/')
+        
+    elif pilihan == '4':
+        os.system('cls')
+        webbrowser.open('https://aau.ac.id/')
+    
+    elif pilihan == '5':
+        os.system('cls')
+        webbrowser.open('https://www.aal.ac.id/')
+    
+    elif pilihan =='6':
+        os.system('cls')
+        webbrowser.open('https://www.akmil.ac.id/')
+    
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        search_academy()
     
 def find_opprtunities():
     print("on progress")
