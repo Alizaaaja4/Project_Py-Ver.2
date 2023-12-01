@@ -178,32 +178,62 @@ def search_academy():
     print("==  [3]. Police Academy                    [4]. Air Force Academy               ==")
     print("==  [5]. Naval Academy                     [6]. Army Academy                    ==")
     print("----------------------------------------------------------------------------------")
+    print("==  [0]. Back                                                                   ==")
+    print("----------------------------------------------------------------------------------")
     pilihan = input("Input Option : ")
     print('\n')
     
     if pilihan == '1':
         os.system('cls')
+        print('Continue to visit the site ?')
+        os.system('pause')
         webbrowser.open('https://jakarta.ipdn.ac.id/')
+        
+        search_academy()
         
     elif pilihan == '2':
         os.system('cls')
+        print('Continue to visit the site ?')
+        os.system('pause')
         webbrowser.open('https://pknstan.ac.id/')
+        
+        search_academy()
         
     elif pilihan == '3':
         os.system('cls')
+        print('Continue to visit the site ?')
+        os.system('pause')
         webbrowser.open('https://akpol.ac.id/')
+        
+        search_academy()
         
     elif pilihan == '4':
         os.system('cls')
+        print('Continue to visit the site ?')
+        os.system('pause')
         webbrowser.open('https://aau.ac.id/')
+        
+        search_academy()
     
     elif pilihan == '5':
         os.system('cls')
+        print('Continue to visit the site ?')
+        os.system('pause')
         webbrowser.open('https://www.aal.ac.id/')
+
+        search_academy()
     
     elif pilihan =='6':
         os.system('cls')
+        print('Continue to visit the site ?')
+        os.system('pause')
         webbrowser.open('https://www.akmil.ac.id/')
+        
+        search_academy()
+
+    elif pilihan == '0':
+        os.system('cls')
+        dasboard_program()
     
     else:
         print("Your selection is not in the menu !!")
@@ -225,19 +255,19 @@ def dasboard_program():
     pilihan = input("Input option (A/B/C/D) : ")
     print("\n")
     
-    if pilihan == 'A' or 'a':
+    if pilihan == 'A' or pilihan == 'a':
         os.system('cls')
         view_profile()
         
-    elif pilihan == 'B' or 'b':
+    elif pilihan == 'B' or pilihan == 'b':
         os.system('cls')
         search_academy()
         
-    elif pilihan == 'C' or 'c':
+    elif pilihan == 'C' or pilian =='c':
         os.system('cls')
         find_opprtunities()
     
-    elif pilihan == 'D' or 'd':
+    elif pilihan == 'D' or pilihan =='d':
         os.system('cls')
         menu_utama()
     
