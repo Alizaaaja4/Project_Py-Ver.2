@@ -138,10 +138,57 @@ def menu_utama():
         
         menu_utama()
 
+def view_profile():
+    print_header()
+    
+    print("\n")
+    print("----------------------------------------------------------------------------------")
+    print("== Name     :                        | Email    :                               ==")
+    print("----------------------------------------------------------------------------------")
+    print("== School   :                                                                   ==")
+    print("----------------------------------------------------------------------------------")
+    print('== Username :                        | Password :                               ==')
+    print("----------------------------------------------------------------------------------")
+    
+def search_academy():
+    print("on progress")
+    
+def find_opprtunities():
+    print("on progress")
+
 def dasboard_program():
     print_header()
     
+    print("\n")
+    print("----------------------------------------------------------------------------------")
+    print('--       [A].   View Profile         [B].    Search for academies on the site   --')
+    print('--                                                                              --')
+    print('--       [C].   Find opportunities   [D].    Exit the site                      --')
+    print("----------------------------------------------------------------------------------")
+    pilihan = input("Input option (A/B/C/D) : ")
+    print("\n")
     
+    if pilihan == 'A' or 'a':
+        os.system('cls')
+        view_profile()
+        
+    elif pilihan == 'B' or 'b':
+        os.system('cls')
+        search_academy()
+        
+    elif pilihan == 'C' or 'c':
+        os.system('cls')
+        find_opprtunities()
+    
+    elif pilihan == 'D' or 'd':
+        os.system('cls')
+        menu_utama()
+    
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        
+        dasboard_program()
 
 ## all function
 menu_utama()
