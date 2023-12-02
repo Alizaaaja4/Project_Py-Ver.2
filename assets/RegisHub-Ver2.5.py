@@ -241,7 +241,33 @@ def search_academy():
         search_academy()
     
 def find_opprtunities():
-    print("on progress")
+    print_header()
+    
+    print("\n")
+    print("------------------------------------------------------------------------------------")
+    print("--                                ANNOUNCEMENT                                    --")
+    print("------------------------------------------------------------------------------------")
+    print("-- (1). Please choose the official academy you want to see the entrance opportunities")
+    print('-- (2). Input the requested data as well as possible')
+    print("-- (3). Wait for the calculation result for a few seconds")
+    print("------------------------------------------------------------------------------------")
+    print("==                [0]. Back             |                [9]. Next                ==")
+    print("------------------------------------------------------------------------------------")
+    pilihan = input("Type (Back or Next) : ")
+    print("\n")
+    
+    if pilihan.lower() == 'Back' or pilihan.lower() == 'back':
+        os.system('cls')
+        dasboard_program()
+    
+    elif pilihan.lower() == 'Next' or pilihan.lower() == 'next':
+        os.system('cls')
+        lest_opportunities()
+        
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        find_opprtunities()
 
 def dasboard_program():
     print_header()
@@ -276,6 +302,70 @@ def dasboard_program():
         os.system('cls')
         
         dasboard_program()
+
+def calculate_ipdn():
+    print('progres')
+
+def calculate_stan():
+    print('progres')
+    
+def calculate_akpol():
+    print('progres')
+
+def calculate_aau():
+    print('progres')
+
+def calculate_aal():
+    print('progres')
+
+def calculate_aad():
+    print('progres')
+
+def lest_opportunities():
+    print_header()
+    
+    print("----------------------------------------------------------------------------------")
+    print("==  [1]. Institute of Internal Governmen   [2]. State Financial Polytechnic     ==")
+    print("==  [3]. Police Academy                    [4]. Air Force Academy               ==")
+    print("==  [5]. Naval Academy                     [6]. Army Academy                    ==")
+    print("----------------------------------------------------------------------------------")
+    print("==  [0]. Back                                                                   ==")
+    print("----------------------------------------------------------------------------------")
+    pilihan = input("Input Option : ")
+    print('\n')
+    
+    if pilihan == '1':
+        os.system('cls')
+        calculate_ipdn()
+        
+    elif pilihan == '2':
+        os.system('cls')
+        calculate_stan()
+        
+    elif pilihan == '3':
+        os.system('cls')
+        calculate_akpol()
+    
+    elif pilihan == '4':
+        os.system('cls')
+        calculate_aau()
+    
+    elif pilihan == '5':
+        os.system('cls')
+        calculate_aal()
+    
+    elif pilihan == '6':
+        os.system('cls')
+        calculate_aad()
+        
+    elif pilihan == '0':
+        os.system('cls')
+        find_opprtunities()
+    
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        lest_opportunities()
 
 ## all function
 menu_utama()
