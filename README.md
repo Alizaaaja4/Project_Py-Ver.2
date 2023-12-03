@@ -4,7 +4,7 @@
 
 Project : Py-Ver.2
 
-RegisHub is a smart app specifically designed to help prospective students gauge and calculate their chances of being accepted into the official school of choice. With RegisHub, users can enter their profile information, including academic achievements, extracurricular experience, and recommendations, then the app will use intelligent algorithms to analyze and assess their acceptance potential.
+RegisHub is a smart app specifically designed to help prospective students gauge and calculate their chances of being accepted into the official school of choice. With RegisHub, users can enter their profile information, including academic achievements, and recommendations, then the app will use intelligent algorithms to analyze and assess their acceptance potential.
 
 Developer :  
 - [Aliza Nurfitrian Meizahra ](https://github.com/Alizaaaja4) [ALL]
