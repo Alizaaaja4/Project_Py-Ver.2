@@ -304,22 +304,490 @@ def dasboard_program():
         dasboard_program()
 
 def calculate_ipdn():
-    print('progres')
+    print_header()
+    
+    print('\n')
+    print('==================================================================================')
+    print('-------------------------------   Medical Tests   --------------------------------')
+    print('----------------------------------------------------------------------------------')
+    
+    print('\n')
+    pilihan = input("Choice your gender, (female or male) ? ")
+    
+    if pilihan.lower() == 'Female' or pilihan.lower() =='female':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 160) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)* 100     
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    elif pilihan.lower() == 'Male' or pilihan.lower() =='male':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 175) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)*100  
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        
+        calculate_ipdn()
 
 def calculate_stan():
-    print('progres')
+    print_header()
+    
+    print('\n')
+    print('==================================================================================')
+    print('-------------------------------   Medical Tests   --------------------------------')
+    print('----------------------------------------------------------------------------------')
+    
+    print('\n')
+    pilihan = input("Choice your gender, (female or male) ? ")
+    
+    if pilihan.lower() == 'Female' or pilihan.lower() =='female':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 155) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)* 100     
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    elif pilihan.lower() == 'Male' or pilihan.lower() =='male':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 170) * 100 
+        berat_peluang = (berat_badan / tinggi_badan)*100  
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        
+        calculate_stan()
     
 def calculate_akpol():
-    print('progres')
+    print_header()
+    
+    print('\n')
+    print('==================================================================================')
+    print('-------------------------------   Medical Tests   --------------------------------')
+    print('----------------------------------------------------------------------------------')
+    
+    print('\n')
+    pilihan = input("Choice your gender, (female or male) ? ")
+    
+    if pilihan.lower() == 'Female' or pilihan.lower() =='female':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 165) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)* 100     
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    elif pilihan.lower() == 'Male' or pilihan.lower() =='male':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 175) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)*100  
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        
+        calculate_akpol()
 
 def calculate_aau():
-    print('progres')
+     print_header()
+    
+    print('\n')
+    print('==================================================================================')
+    print('-------------------------------   Medical Tests   --------------------------------')
+    print('----------------------------------------------------------------------------------')
+    
+    print('\n')
+    pilihan = input("Choice your gender, (female or male) ? ")
+    
+    if pilihan.lower() == 'Female' or pilihan.lower() =='female':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 165) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)* 100     
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    elif pilihan.lower() == 'Male' or pilihan.lower() =='male':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 170) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)*100  
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        
+        calculate_aau()
 
 def calculate_aal():
-    print('progres')
+    print_header()
+    
+    print('\n')
+    print('==================================================================================')
+    print('-------------------------------   Medical Tests   --------------------------------')
+    print('----------------------------------------------------------------------------------')
+    
+    print('\n')
+    pilihan = input("Choice your gender, (female or male) ? ")
+    
+    if pilihan.lower() == 'Female' or pilihan.lower() =='female':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 170) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)* 100     
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    elif pilihan.lower() == 'Male' or pilihan.lower() =='male':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 180) * 100 
+        berat_peluang = (berat_badan / tinggi_badan)*100  
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        
+        calculate_aal()
 
 def calculate_aad():
-    print('progres')
+    print_header()
+    
+    print('\n')
+    print('==================================================================================')
+    print('-------------------------------   Medical Tests   --------------------------------')
+    print('----------------------------------------------------------------------------------')
+    
+    print('\n')
+    pilihan = input("Choice your gender, (female or male) ? ")
+    
+    if pilihan.lower() == 'Female' or pilihan.lower() =='female':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 159) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)* 100     
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    elif pilihan.lower() == 'Male' or pilihan.lower() =='male':
+        tinggi_badan = int(input('Input Tinggi Badan (cm) : '))
+        berat_badan = int(input('Input Berat Badan (kg) : '))
+        
+        tinggi_peluang = (tinggi_badan / 170) * 100  
+        berat_peluang = (berat_badan / tinggi_badan)*100  
+    
+        print("\nPeluang Tinggi Badan: {:.2f}%".format(tinggi_peluang))
+        print("Peluang Berat Badan: {:.2f}%".format(berat_peluang))
+    
+        os.system('pause')
+        os.system('cls')
+        print_header()
+        
+        print('\n')
+        print('==================================================================================')
+        print('---------------------------   Basic Competency Test   ----------------------------')
+        print('----------------------------------------------------------------------------------')
+        
+        
+        cat = int(input('Computer Asisted Test (CAT) score (0 - 400) : '))
+        psicology = int(input('Psychological test scores (0 - 400) : '))
+
+        
+        nilai_akhir = ((cat + psicology) / 2)
+        
+        print("\nNilai Akhir: {:.2f}".format(nilai_akhir))
+        
+        os.system('pause')
+        os.system('cls')
+        lest_opportunities()
+    
+    else:
+        print("Your selection is not in the menu !!")
+        os.system('cls')
+        
+        calculate_aad()
 
 def lest_opportunities():
     print_header()
