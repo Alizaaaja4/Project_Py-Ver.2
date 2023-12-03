@@ -9,5 +9,15 @@ RegisHub is a smart app specifically designed to help prospective students gauge
 Developer :  
 - [Aliza Nurfitrian Meizahra ](https://github.com/Alizaaaja4) [ALL]
   > Practicum Assistant at Basic Computing Laboratory <br>
+
+### Version 2.5
+RegisHub application version 2.5 has 1 mode, namely user mode. Users can experience some of the features of version 2.5 among them
+
+#### User
+     - Sign up and Sign in
+     - View information from this app
+     - Look at the user profile
+     - Visit the official website 
+     - Measuring the chances of entering the official academy
   
   <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=2ECC71&height=120&section=footer"/>
