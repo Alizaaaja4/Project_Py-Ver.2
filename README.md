@@ -8,7 +8,7 @@ RegisHub is a smart app specifically designed to help prospective students gauge
 
 ## Get Started ▶️
 ### Clone the Repository
-    git clone https://github.com/Alizaaaja4/Shell_PlayStore.git
+    git clone https://github.com/Alizaaaja4/Project_Py-Ver.2.git
 
 ### Run my Programs with
     python3 RegisHub-Ver2.5.py
