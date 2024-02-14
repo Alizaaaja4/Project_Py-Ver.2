@@ -11,6 +11,6 @@ RegisHub is a smart app specifically designed to help prospective students gauge
     git clone https://github.com/Alizaaaja4/Project_Py-Ver.2.git
 
 ### Run my Programs with
-    python3 RegisHub-Ver2.5.py
+    python RegisHub-Ver2.5.py
   
   <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=2ECC71&height=120&section=footer"/>
